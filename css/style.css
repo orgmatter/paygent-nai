@@ -1271,9 +1271,13 @@ ol.gradient-list > li + li {
     width: 25%;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 .navbar-brand-cover-flex .navbar-brand-cover-item {
-    width: 45%;
+    width: 65%;
+}
+.navbar-brand-cover-item .navbar-brand {
+    padding: 0px !important;
 }
 .navbar-brand-cover-item .navbar-brand .logo-img {
     width: 100%;
